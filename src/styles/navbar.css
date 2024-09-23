@@ -84,28 +84,3 @@
   .signup-btn:hover {
     background-color: #16a34a 
   }
-
-  @media (max-width: 768px) {
-    .navbar {
-      padding: 1rem;
-    }
-  
-    .nav-links {
-      display: none;
-    }
-  
-    .nav-buttons {
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-  
-    .logo img {
-      width: 120px;
-    }
-  }
-  
-  @media (min-width: 769px) {
-    .nav-buttons {
-      display: flex;
-    }
-  }

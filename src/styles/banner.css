@@ -104,23 +104,3 @@
    height: 800px; 
    margin-top:30px;
   }
-
-  @media (max-width: 768px) {
-    .banner-section {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .banner-content {
-      padding-right: 0;
-      margin-bottom: 2rem;
-    }
-  
-    .banner-image {
-      text-align: center;
-    }
-  
-    .banner-image img {
-      width: 80%;
-    }
-  }
