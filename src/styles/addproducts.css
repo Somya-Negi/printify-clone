@@ -137,17 +137,4 @@
     line-height: 1.6;
   }
 
-  @media (max-width: 768px) {
-    .add-products-shape {
-      flex-direction: column;
-    }
-  
-    .image-container {
-      margin-bottom: 20px;
-      width: 100%;
-    }
-  
-    .text-container {
-      width: 100%;
-    }
-  }
+ 
