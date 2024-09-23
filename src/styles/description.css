@@ -12,13 +12,13 @@
 }
 
 .section-heading {
-    font-size: 30px; /* Adjust heading size */
+    font-size: 25px; /* Adjust heading size */
     color: #000;
     font-family:Arial, Helvetica, sans-serif; 
 }
 
 .section-text {
-    font-size: 20px; /* Adjust text size */
+    font-size: 17px; /* Adjust text size */
     color: #000; /* Original color */
     margin-top: 10px;
     font-family:Arial, Helvetica, sans-serif; 

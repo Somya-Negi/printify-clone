@@ -4,10 +4,10 @@
 }
 
 .links-logo{
-    width:400px;
-    height:200px;
+    width:300px;
+    height:150px;
     margin-top:0;
-    margin-left:100px;
+    margin-left:50px;
     cursor:pointer;
 }
 
@@ -17,7 +17,7 @@
 
 .links-icons{
     margin-left:30px;
-    font-size:35px;
+    font-size:30px;
     color:#45a049;
     cursor:pointer;
 }

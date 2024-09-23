@@ -13,11 +13,11 @@
   }
   
   .risk-heading {
-    font-size: 70px;
+    font-size: 50px;
     color:white;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+
   }
   
   .risk-text {
@@ -25,11 +25,11 @@
     margin-bottom: 30px;
     font-family:Arial, Helvetica, sans-serif;
     color: white; 
-    margin-top:60px;
+    margin-top:50px;
   }
 
   .risk-description{
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 30px;
     font-family:Arial, Helvetica, sans-serif;
     color:white;
@@ -40,8 +40,8 @@
 
   
   .start-selling-button {
-    padding: 15px 30px;
-    font-size: 23px;
+    padding: 10px 15px;
+    font-size: 20px;
     margin-top:45px;
     color: white;
     font-weight:bold;
@@ -73,7 +73,7 @@
     padding: 20px; /* Padding for spacing inside the container */
     border-radius: 10px; /* Rounded corners */
     max-width: 600px; /* Adjust width as needed */
-    margin-top:150px;
+    margin-top:70px;
 }
 
 .profit-calculation-section {
@@ -83,7 +83,7 @@
 
 .profit-text, .profit-rate {
     margin: 5px 0;
-    font-size:30px;
+    font-size:20px;
     font-family:Arial, Helvetica, sans-serif;
 }
 

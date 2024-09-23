@@ -11,7 +11,7 @@
 }
 
 .footer-link {
-    font-size:20px;
+    font-size:17px;
     color: white; /* Link color */
     margin: 0 15px; /* Space between links */
     text-decoration: none; /* Remove underline */
@@ -19,7 +19,7 @@
 }
 
 .footer-text {
-    font-size: 20px; /* Font size for the copyright text */
+    font-size: 18px; /* Font size for the copyright text */
 }
 
 * {
