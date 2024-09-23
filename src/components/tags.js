@@ -8,15 +8,15 @@ const Tags = () => {
   return (
     <div className="tags-container">
       <div className="tag-box">
-        <img src={tag1} className="tag-image" />
+        <img src={tag1} className="tag-image" alt="tags-image"/>
         <p className="tag-text">Custom Products</p>
       </div>
       <div className="tag-box">
-        <img src={tag2}  className="tag-image" />
+        <img src={tag2}  className="tag-image" alt="tags-image"/>
         <p className="tag-text">Sell On Your Terms</p>
       </div>
       <div className="tag-box">
-        <img src={tag3}  className="tag-image" />
+        <img src={tag3}  className="tag-image" alt="tags-image"/>
         <p className="tag-text">We handle</p>
       </div>
     </div>

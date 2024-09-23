@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="navbar-container">
                 <div className='logo'>
                     <a href='/'>
-                        <img src={printifyLogo} className="navbar-logo" />
+                        <img src={printifyLogo} className="navbar-logo" alt="navbar-logo"/>
                     </a>
                 </div>
             </div>

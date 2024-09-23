@@ -9,7 +9,7 @@ const Links = () => {
       <div className="links-section">
 
        <div className="main-logo">
-        <img src={printifylogo} className="links-logo"/>
+        <img src={printifylogo} className="links-logo" alt="printify-logo"/>
        </div>
 
        <div className="icons-logo">
