@@ -1,0 +1,94 @@
+.risk-container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #f5f5f4;
+    background-color:#312e81;
+    margin-top:100px;
+  }
+  
+  .risk-content {
+    flex: 1;
+    margin-right: 20px; 
+  }
+  
+  .risk-heading {
+    font-size: 70px;
+    color:white;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .risk-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white; 
+    margin-top:60px;
+  }
+
+  .risk-description{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight:bold; 
+  }
+
+
+  
+  .start-selling-button {
+    padding: 15px 30px;
+    font-size: 23px;
+    margin-top:45px;
+    color: white;
+    font-weight:bold;
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .risk-animation {
+    flex: 1;
+    
+  }
+  
+  .animation-placeholder {
+ 
+    width: 100%;
+    height: 300px; 
+    background-color: #e0e0e0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profit-calculation {
+    background-color: navy; /* Navy blue background */
+    color: white; /* White text color for contrast */
+    padding: 20px; /* Padding for spacing inside the container */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 600px; /* Adjust width as needed */
+    margin-top:150px;
+}
+
+.profit-calculation-section {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.profit-text, .profit-rate {
+    margin: 5px 0;
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: 1px solid #fff;
+    margin: 20px 0; 
+}
+
+  

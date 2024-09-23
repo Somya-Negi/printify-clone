@@ -1,0 +1,31 @@
+.last-section {
+    display: flex;
+    justify-content: space-around; /* Even spacing between sections */
+    padding: 50px; /* Adjust padding as needed */
+    margin-top:20px;
+}
+
+.section {
+    text-align: center; /* Center text */
+    flex: 1; /* Allow each section to grow equally */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.section-heading {
+    font-size: 30px; /* Adjust heading size */
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.section-text {
+    font-size: 20px; /* Adjust text size */
+    color: #000; /* Original color */
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif; 
+    cursor:pointer;
+}
+
+
+ .section-text:hover {
+    color: green; /* Change color on hover */
+}

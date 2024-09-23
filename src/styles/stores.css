@@ -1,0 +1,114 @@
+.stores-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.stores-shape {
+    position: relative;
+    background-color: white;
+    padding: 50px;
+    width: 100%;
+    max-width: 1500px;
+    height: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.stores-title {
+    margin-bottom: 40px;
+}
+
+.store-heading {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.store-text {
+    font-size: 30px;
+    font-weight: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b7280;
+}
+
+.stores-logos {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.printify-logo {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 45px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2; /* Keep it above the other logos */
+}
+
+.store-images img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 45%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0; /* Initially hidden */
+    transform: scale(0) translate(-50%, -50%); 
+    transition: transform 2s ease-out, opacity 2s ease-out;
+    z-index: 1; /* Below the Printify logo */
+}
+
+.store-images img:nth-child(1) {
+    top: 10%;
+    right: 25%;
+}
+
+.store-images img:nth-child(2) {
+    top: 50%;
+    right: 5%;
+}
+
+.store-images img:nth-child(3) {
+    top: 90%;
+    right: 25%;
+}
+
+.store-images img:nth-child(4) {
+    top: 50%;
+    left: 20%;
+}
+
+.store-images img:nth-child(5) {
+    top: 15%;
+    left: 5%;
+}
+
+
+.store-images img:nth-child(6) {
+    top: 85%;
+    left: 5%;
+}
+
+
+.store-images img:nth-child(7) {
+    top: 120%;
+    right: 50%;
+}
+
+.animate-logos img{
+    opacity: 1; /* Make visible */
+    transform: scale(1) translate(0, 0); 
+}
+
+.store-images img:hover {
+    transform: scale(1.3);
+    transition: transform 0.2s ease-in;
+}

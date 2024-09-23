@@ -1,0 +1,29 @@
+.footer-section {
+    background-color:#64748b;
+    color: white; /* Text color */
+    padding:20px;
+    text-align: center; /* Center the text */
+
+}
+
+.footer-links {
+    margin-bottom: 20px; /* Space below the links */
+}
+
+.footer-link {
+    font-size:20px;
+    color: white; /* Link color */
+    margin: 0 15px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.footer-text {
+    font-size: 20px; /* Font size for the copyright text */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}

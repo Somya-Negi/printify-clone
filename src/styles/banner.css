@@ -1,0 +1,126 @@
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color: white;
+    margin-left:240px;
+  }
+  
+  .banner-content {
+    flex: 1;
+    padding-right: 2rem;
+  }
+  
+  
+  .banner-heading h1 {
+    margin-top:130px;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+    width: 90%; 
+    line-height: 1.2;
+  }
+
+  .banner-last-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:15px;
+    color:#4CAF50;
+  }
+  
+ 
+  .banner-list-type {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 70px;
+  }
+  
+  .banner-list-type li {
+    font-size: 20px;
+    font-weight:bold;
+    color:#6b7280;
+    margin-bottom: 1rem;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+  }
+  
+  .banner-list-type li i {
+    color: green; 
+    margin-right: 0.8rem; 
+    font-size: 1.2rem; 
+  }
+  
+
+  .banner-buttons {
+    display: flex;
+    gap:20px;
+  }
+  
+  .start-banner-btn {
+    padding: 0.8rem 2rem;
+    background-color: #4CAF50;; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-banner-btn:hover {
+    background-color: #15803d;
+  }
+  
+  .work-banner-btn {
+    padding: 0.8rem 2rem;
+    background-color: white;
+    color: black;
+    font-weight:bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display:flex;
+    align-items:center;
+  }
+  
+  .work-banner-btn i {
+    margin-right:10px; 
+    font-size: 25px; 
+  }
+  
+  .work-banner-btn:hover {
+    color: #45a049; 
+  }
+  
+  .animation-container {
+   width: 1000px; 
+   height: 800px; 
+   margin-top:30px;
+  }
+
+  @media (max-width: 768px) {
+    .banner-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner-content {
+      padding-right: 0;
+      margin-bottom: 2rem;
+    }
+  
+    .banner-image {
+      text-align: center;
+    }
+  
+    .banner-image img {
+      width: 80%;
+    }
+  }

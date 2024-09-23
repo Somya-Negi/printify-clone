@@ -1,0 +1,30 @@
+.links-section{
+    display:flex;
+    align-items:center;
+}
+
+.links-logo{
+    width:400px;
+    height:200px;
+    margin-top:0;
+    margin-left:100px;
+    cursor:pointer;
+}
+
+.icons-logo{
+    margin-left:45%;
+}
+
+.links-icons{
+    margin-left:30px;
+    font-size:35px;
+    color:#45a049;
+    cursor:pointer;
+}
+
+.links-icons:hover{
+    color: darkgreen;
+    font-size:40px;
+    transition: font-size 0.2s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
